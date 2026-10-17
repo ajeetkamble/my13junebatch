@@ -20,7 +20,7 @@ pipeline {
     stages {
         stage('Start') {
             steps {
-                echo 'We are starting project'
+                echo 'We are starting the project'
                 echo "Your project name is (Jobname) and build number is --> ${SAFE_JOB}-${BUILD_NUMBER}"
                 sh 'ls -ltr'
             }
