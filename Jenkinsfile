@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent k8s-master
 
     environment {
         // Replace '/' in JOB_NAME (folders / multibranch) so it is a valid Docker tag
